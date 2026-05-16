@@ -63,7 +63,7 @@ pipeline {
         success {
             echo "pipeline success"
         }
-        failure {
+        failure { 
             echo "pipeline failure"
         }
     }
